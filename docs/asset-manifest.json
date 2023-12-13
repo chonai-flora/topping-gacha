@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/topping-gacha/static/css/main.f718f1f2.css",
+    "main.js": "/topping-gacha/static/js/main.657a2f3d.js",
+    "static/js/787.7dd854ca.chunk.js": "/topping-gacha/static/js/787.7dd854ca.chunk.js",
+    "index.html": "/topping-gacha/index.html",
+    "main.f718f1f2.css.map": "/topping-gacha/static/css/main.f718f1f2.css.map",
+    "main.657a2f3d.js.map": "/topping-gacha/static/js/main.657a2f3d.js.map",
+    "787.7dd854ca.chunk.js.map": "/topping-gacha/static/js/787.7dd854ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f718f1f2.css",
+    "static/js/main.657a2f3d.js"
+  ]
+}
