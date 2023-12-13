@@ -81,9 +81,11 @@ const App = (): JSX.Element => {
         </div>
         <p className="text-right">合計: {limit - money}円</p>
 
-        <button className="btn btn-outline btn-ghost" onClick={updateOrders}>
-          ガチャを引く
-        </button>
+        <div className="mt-5 text-center">
+          <button className="btn btn-outline btn-ghost" onClick={updateOrders}>
+            ガチャを引く
+          </button>
+        </div>
       </div>
 
       <footer className="footer footer-center px-4 py-3 mt-auto bg-base-200">

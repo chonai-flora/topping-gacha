@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/topping-gacha/static/css/main.f718f1f2.css",
-    "main.js": "/topping-gacha/static/js/main.657a2f3d.js",
+    "main.css": "/topping-gacha/static/css/main.74c53252.css",
+    "main.js": "/topping-gacha/static/js/main.c4f40d96.js",
     "static/js/787.7dd854ca.chunk.js": "/topping-gacha/static/js/787.7dd854ca.chunk.js",
     "index.html": "/topping-gacha/index.html",
-    "main.f718f1f2.css.map": "/topping-gacha/static/css/main.f718f1f2.css.map",
-    "main.657a2f3d.js.map": "/topping-gacha/static/js/main.657a2f3d.js.map",
+    "main.74c53252.css.map": "/topping-gacha/static/css/main.74c53252.css.map",
+    "main.c4f40d96.js.map": "/topping-gacha/static/js/main.c4f40d96.js.map",
     "787.7dd854ca.chunk.js.map": "/topping-gacha/static/js/787.7dd854ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f718f1f2.css",
-    "static/js/main.657a2f3d.js"
+    "static/css/main.74c53252.css",
+    "static/js/main.c4f40d96.js"
   ]
 }
