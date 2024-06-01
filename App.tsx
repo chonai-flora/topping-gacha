@@ -37,13 +37,13 @@ const App = (): JSX.Element => {
             const filteredMenus = menus.filter((menu) => newMoney - menu.price >= 0);
             const menuCount = filteredMenus.length;
 
-            if (menuCount <= 0) {
-                break;
-            }
-            else {
+            if (menuCount) {
                 const sideMenu = filteredMenus[Math.floor(Math.random() * menuCount)];
                 newOrders.push(sideMenu);
                 newMoney -= sideMenu.price;
+            }
+            else {
+                break;
             }
         }
 
@@ -71,8 +71,8 @@ const App = (): JSX.Element => {
                 </select>
 
                 <div className="grid my-3 gap-4 grid-cols-2">
-                    {orders.map((order) => (
-                        <div className="card p-4 gap-3 shadow-md bg-gray-100 flex-col justify-between" key={order.name}>
+                    {orders.map((order, index) => (
+                        <div className="card p-4 gap-3 shadow-md bg-gray-100 flex-col justify-between" key={index}>
                             <p className="card-title">{order.name}</p>
                             <p className="text-right">価格: {order.price}円</p>
                         </div>
