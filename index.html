@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+
+<head>
+    <meta charset="utf-8" />
+    <meta prefix="og: https://ogp.me/ns#" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="トッピングをランダムで決めます" />
+    <meta property="og:title" content="トッピングガチャ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="ogp.png" />
+    <meta property="og:url" content="https://chonai-flora.github.io/topping-gacha/" />
+    <meta property="og:description" content="トッピングをランダムで決めます" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="ogp.png" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <title>トッピングガチャ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <script>
+        Babel.registerPreset("tsx", {
+            presets: [[
+                Babel.availablePresets["typescript"],
+                {
+                    allExtensions: true,
+                    isTSX: true,
+                }
+            ]],
+        });
+    </script>
+    <script type="text/babel" data-type="module" data-presets="tsx,react" src="App.tsx"></script>
+</head>
+
+<body>
+    <div id="app"></div>
+</body>
+
+</html>
